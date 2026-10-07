@@ -1,0 +1,242 @@
+zero = "ноль"
+one = "один"
+two = "два"
+three = "три"
+four = "четыре"
+five = "пять"
+six = "шесть"
+seven = "семь"
+eight = "восемь"
+nine = "девять"
+ten = "десять"
+eleven = "одиннадцать"
+twelve = "двенадцать"
+thirteen = "тринадцать"
+fourteen = "четырнадцать"
+fifteen = "пятнадцать"
+sixteen = "шестнадцать"
+seventeen = "семнадцать"
+eighteen = "восемнадцать"
+nineteen = "девятнадцать"
+twenty = "двадцать "
+thirty = "тридцать "
+forty = "сорок "
+fifty = "пятьдесят "
+sixty = "шестьдесят "
+seventy = "семьдесят "
+eighty = "восемьдесят "
+ninety = "девяносто "
+
+number = input("Привет! Введи любое число от 0 до 99")
+number = str (number)
+
+A = ["а", "б", "в", "г", "д", "е", "ё", "ж", "з", "и", "й", "к", "л", "м", "н", "о", "п", "р", "с", "т", "у", "ф", "х", "ц", "ч", "ш", "щ", "ъ", "ы", "ь", "э", "ю", "я", "a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z", "@", "#", "$", "%", "&","*"]
+b = list (number)
+if any(char in b for char in A):
+    print("Ты ввёл не число.")
+else:
+    number = int (number)
+    if -1 < number < 100:
+        if number == 0:
+            print (zero)
+        elif number == 1:
+            print (one)
+        elif number == 2:
+            print (two)
+        elif number == 3:
+            print (three)
+        elif number == 4:
+            print (four)
+        elif number == 5:
+            print (five)
+        elif number == 6:
+            print (six)
+        elif number == 7:
+            print (seven)
+        elif number == 8:
+            print (eight)
+        elif number == 9:
+            print (nine)
+        elif number == 10:
+            print (ten)
+        elif number == 11:
+            print (eleven)
+        elif number == 12:
+            print (twelve)
+        elif number == 13:
+            print (thirteen)
+        elif number == 14:
+            print (fourteen)
+        elif number == 15:
+            print (fifteen)
+        elif number == 16:
+            print (sixteen)
+        elif number == 17:
+            print (seventeen)
+        elif number == 18:
+            print (eighteen)
+        elif number == 19:
+            print (nineteen)
+        elif number == 20:
+            print (twenty)
+        elif number == 21:
+            print (twenty + one)
+        elif number == 22:
+            print (twenty + two)
+        elif number == 23:
+            print (twenty + three)
+        elif number == 24:
+            print (twenty + four)
+        elif number == 25:
+            print (twenty + five)
+        elif number == 26:
+            print (twenty + six)
+        elif number == 27:
+            print (twenty + seven)
+        elif number == 28:
+            print (twenty + eight)
+        elif number == 29:
+            print (twenty + nine)
+        elif number == 30:
+            print (thirty)
+        elif number == 31:
+            print (thirty + one)
+        elif number == 32:
+            print (thirty + two)
+        elif number == 33:
+            print (thirty + three)
+        elif number == 34:
+            print (thirty + four)
+        elif number == 35:
+            print (thirty + five)
+        elif number == 36:
+            print (thirty + six)
+        elif number == 37:
+            print (thirty + seven)
+        elif number == 38:
+            print (thirty + eight)
+        elif number == 39:
+            print (thirty + nine)
+        elif number == 40:
+            print (forty)
+        elif number == 41:
+            print (forty + one)
+        elif number == 42:
+            print (forty + two)
+        elif number == 43:
+            print (forty + three)
+        elif number == 44:
+            print (forty + four)
+        elif number == 45:
+            print (forty + five)
+        elif number == 46:
+            print (forty + six)
+        elif number == 47:
+            print (forty + seven)
+        elif number == 48:
+            print (forty + eight)
+        elif number == 49:
+            print (forty + nine)
+        elif number == 50:
+            print (fifty)
+        elif number == 51:
+            print (fifty + one)
+        elif number == 52:
+            print (fifty + two)
+        elif number == 53:
+            print (fifty + three)
+        elif number == 54:
+            print (fifty + four)
+        elif number == 55:
+            print (fifty + five)
+        elif number == 56:
+            print (fifty + six)
+        elif number == 57:
+            print (fifty + seven)
+        elif number == 58:
+            print (fifty + eight)
+        elif number == 59:
+            print (fifty + nine)
+        elif number == 60:
+            print (sixty)
+        elif number == 61:
+            print (sixty + one)
+        elif number == 62:
+            print (sixty + two)
+        elif number == 63:
+            print (sixty + three)
+        elif number == 64:
+            print (sixty + four)
+        elif number == 65:
+            print (sixty + five)
+        elif number == 66:
+            print (sixty + six)
+        elif number == 67:
+            print (sixty + seven)
+        elif number == 68:
+            print (sixty + eight)
+        elif number == 69:
+            print (sixty + nine)
+        elif number == 70:
+            print (seventy)
+        elif number == 71:
+            print (seventy + one)
+        elif number == 72:
+            print (seventy + two)
+        elif number == 73:
+            print (seventy + three)
+        elif number == 74:
+            print (seventy + four)
+        elif number == 75:
+            print (seventy + five)
+        elif number == 76:
+            print (seventy + six)
+        elif number == 77:
+            print (seventy + seven)
+        elif number == 78:
+            print (seventy + eight)
+        elif number == 79:
+            print (seventy + nine)
+        elif number == 80:
+            print (eighty)
+        elif number == 81:
+            print (eighty + one)
+        elif number == 82:
+            print (eighty + two)
+        elif number == 83:
+            print (eighty + three)
+        elif number == 84:
+            print (eighty + four)
+        elif number == 85:
+            print (eighty + five)
+        elif number == 86:
+            print (eighty + six)
+        elif number == 87:
+            print (eighty + seven)
+        elif number == 88:
+            print (eighty + eight)
+        elif number == 89:
+            print (eighty + nine)
+        elif number == 90:
+            print (ninety)
+        elif number == 91:
+            print (ninety + one)
+        elif number == 92:
+            print (ninety + two)
+        elif number == 93:
+            print (ninety + three)
+        elif number == 94:
+            print (ninety + four)
+        elif number == 95:
+            print (ninety + five)
+        elif number == 96:
+            print (ninety + six)
+        elif number == 97:
+            print (ninety + seven)
+        elif number == 98:
+            print (ninety + eight)
+        elif number == 99:
+            print (ninety + nine)
+    else:
+        print ("Ты ввёл не то число. Перечитай задание.")
+  
